@@ -1,0 +1,252 @@
+.menu-chinh {
+    background-color: #666;
+}
+
+.content ul,
+.menu-chinh ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content ul li,
+.menu-chinh ul li {
+    position: relative;
+}
+
+.menu-chinh ul li a {
+    display: block;
+    padding: 15px 60px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-chinh ul li a:hover {
+    background-color: #444;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header-top .logo img {
+    height: 76px;
+}
+
+.header-info span {
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-info span:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
+.btn-login-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-dangky,
+.btn-dangnhap {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.btn-dangky:hover,
+.btn-dangnhap:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+.search-bar :hover {
+    cursor: pointer;
+    border: 0;
+}
+
+.search-bar input {
+    outline: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar button:hover {
+    background-color: #444;
+    color: orange;
+}
+
+.content-img {
+    width: 100%;
+    height: 600px;
+}
+
+.content ul li a {
+    display: block;
+    padding: 15px 60px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 36px;
+    background-color: rgb(231, 170, 57);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card-img-top {
+    width: 250px;
+    height: 250px;
+}
+
+.card {
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 250px;
+    height: 100px;
+}
+
+.btn-primary {
+    display: block;
+    background-color: #000 !important;
+    border: none !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: orange !important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    /* Sắp xếp các phần tử theo cột */
+    align-items: center;
+    /* Căn giữa các phần tử */
+    gap: 5px;
+}
+
+
+.card-title {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    min-height: 50px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 20px;
+    color: #f00;
+    font-weight: 500;
+}
+
+
+.btn-view {
+    padding: 10px 35px;
+    background-color: #f00;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 72px;
+}
+
+.btn-view:hover {
+    background-color: orangered;
+    color: #000;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* Căn hai phần ra hai bên */
+    align-items: flex-start;
+    /* Canh trên */
+}
+
+.footer-item {
+    width: 50%;
+    /* Giữ mỗi phần chiếm 50% chiều rộng */
+}
+
+.thank-info {
+    width: 400px;
+    margin-left: 90px;
+}
+
+.contact-info {
+    margin-left: 90px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    /* Thêm khoảng cách giữa icon và chữ */
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.contact {
+    font-size: 15px;
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.ban-quyen {
+    background-color: rgb(60, 125, 238);
+    text-align: center;
+    color: #fff;
+    height: 40px;
+    font-size: 20px;
+
+}
